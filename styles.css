@@ -41,7 +41,7 @@ button:hover {
 #animatedBox {
     width: 100px;
     height: 100px;
-    background-color: #61dafb;
+    background-color: #91ec85;
     margin: 20px auto;
     opacity: 0;
     transform: translateY(-20px);
