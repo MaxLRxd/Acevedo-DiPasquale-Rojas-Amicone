@@ -1,5 +1,5 @@
 body {
-    background-image: url("july3p.gif");
+    background-image: url("july3p-llorando.gif");
     background-size: cover; /* Ajusta el tamaño del GIF */
     background-position: center; /* Centra el GIF */
     font-family: 'Arial', sans-serif;
@@ -37,10 +37,11 @@ button {
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s;
+
 }
 
 button:hover {
-    background-color: #21a1f1;
+    background-color: #e0f7a3;
 }
 
 #animatedBox {
@@ -67,3 +68,39 @@ button:hover {
 #asd{
     color: white;
 }
+
+h2{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#juli2p{
+    background-image: url(july3p-llorando.gif);
+    background-size: cover; /* Ajusta el tamaño del GIF */
+    background-position: center;
+     
+}
+
+#juli2p:hover{
+    background-image: url(july3p-dance.gif);
+    width: 133px;
+    height:  100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+a{
+    
+        text-decoration: none; /* Elimina el subrayado */
+        color: #000000; /* Color del texto */
+        mix-blend-mode: exclusion; /* Efecto de mezcla */
+        font-weight: bold; /* Negrita */
+        text-shadow: 
+            -1px -1px 0 #ffffff,  
+             1px -1px 0 #ffffff,
+            -1px  1px 0 #ffffff,
+             1px  1px 0 #ffffff; /* Contorno en blanco */
+    
+    
+}
+
